@@ -140,6 +140,6 @@ After the current controller is killed, the `Zookeeper ensemble` will elect anot
 1. Type `docker-machine stop`.
 
 ## Docker images used
-1. [wurstmeister/kafka](#https://hub.docker.com/r/wurstmeister/kafka/)
-1. [elevy/zookeeper](#https://hub.docker.com/r/elevy/zookeeper)
-1. [edenhill/kafkacat](#https://hub.docker.com/r/edenhill/kafkacat)
+1. [wurstmeister/kafka](https://hub.docker.com/r/wurstmeister/kafka/)
+1. [elevy/zookeeper](https://hub.docker.com/r/elevy/zookeeper)
+1. [edenhill/kafkacat](https://hub.docker.com/r/edenhill/kafkacat)
