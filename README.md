@@ -5,6 +5,13 @@ Demonstrates Publish-Subscribe (Pub-Sub) Messaging. This is done by utilising 3 
 1. [Docker](https://docs.docker.com/get-started/)
 
 ## How to set up and run the Kafka clusters
+> NOTE: If you are using `Docker Desktop` instead of `docker-machine`, please replace the ip under `.env` file with your local private ip. 
+
+> NOTE: The following instructions are run on `docker-machine`, therefore, it is using the default ip of `docker-machine` which is `192.168.99.100`. If you are using `Docker Desktop`, please replace ALL commands with `192.168.99.100` with your local private ip.
+> For example,
+> - ORIGINAL: `docker run -it --network=host edenhill/kafkacat:1.6.0 -b 192.168.99.100:9092,192.168.99.100:9093,192.168.99.100:9094 -L`
+> - REPLACEMENT: `docker run -it --network=host edenhill/kafkacat:1.6.0 -b 192.168.1.128:9092,192.168.1.128:9093,192.168.1.128:9094 -L`
+
 1. Download or Clone this repository.
 1. Open Command prompt in the repository directory.
 1. To start the docker machine, type `docker-machine start` OR click on **Docker Quickstart Terminal** .
